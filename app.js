@@ -9,7 +9,7 @@ const STORE = {
 // Sample products (replace with your own)
 const PRODUCTS = [
   // Phones
-  { id: "ph1", name: "Android Phone (Budget Series)", category: "Phones", price: 59990, tag: "Popular" },
+  { id: "ph1", name: "Lenovo IdeaPad 1 14AMN7 – Ryzen 5", category: "Phones", price: 179,000.00, tag: "Popular" },
   { id: "ph2", name: "Android Phone (Midrange Series)", category: "Phones", price: 89990, tag: "Best value" },
   { id: "ph3", name: "Refurb iPhone (Certified)", category: "Phones", price: 124990, tag: "Limited" },
 
@@ -26,14 +26,14 @@ const PRODUCTS = [
   { id: "ga4", name: "Controller (Wireless)", category: "Gaming", price: 7490, tag: "Smooth" },
 
   // Laptops
-  { id: "lp1", name: "Laptop (Office / Study)", category: "Laptops", price: 164990, tag: "Reliable" },
-  { id: "lp2", name: "Laptop (Creator Series)", category: "Laptops", price: 219990, tag: "Performance" },
-  { id: "lp3", name: "Gaming Laptop (Entry)", category: "Laptops", price: 289990, tag: "Power" },
+  { id: "lp1", name: "Lenovo IdeaPad 1 14AMN7 – Ryzen 5", category: "Laptops", price: 179,000, tag: "Reliable" },
+  { id: "lp2", name: "HP Victus Gaming 15 Fb3166AX – Ryzen 5", category: "Laptops", price: 250,000, tag: "Performance" },
+  { id: "lp3", name: "Lenovo IdeaPad Slim 3 15AMN8 – Ryzen 5", category: "Laptops", price: 189,000, tag: "Power" },
 
   // Gadgets
-  { id: "gd1", name: "Bluetooth Speaker", category: "Gadgets", price: 7990, tag: "Loud" },
-  { id: "gd2", name: "Smart Watch", category: "Gadgets", price: 10990, tag: "Trending" },
-  { id: "gd3", name: "Power Bank 20,000mAh", category: "Gadgets", price: 6490, tag: "Must have" },
+  { id: "gd1", name: "Toocki 3.5mm AUX Audio Cable 2M", category: "Gadgets", price: 2200, tag: "Loud" },
+  { id: "gd2", name: "20W USB-C Power Adapter ", category: "Gadgets", price: 4500, tag: "Trending" },
+  { id: "gd3", name: "K9 Dual Wireless Clip Microphone – Type-C & Lightning", category: "Gadgets", price: 3250, tag: "Must have" },
 ];
 
 // ====== STATE ======
