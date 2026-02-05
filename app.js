@@ -1,4 +1,3 @@
-alert("app.js loaded");
 // ====== CONFIG (edit these) ======
 const STORE = {
   whatsappNumber: "94741571894",   // Sri Lanka: remove 0, add 94
