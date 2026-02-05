@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechStore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <div class="logo">TS</div>
+      <div>
+        <div class="name">TechStore</div>
+        <div class="tag">Budget tech • Fast delivery</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#shop" class="nav-link">Shop</a>
+      <button class="cart-btn" id="openCartBtn" aria-label="Open cart">
+        Cart <span class="pill" id="cartCount">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Tech deals that don’t break the bank.</h1>
+        <p>Phones, accessories, audio and laptop essentials. Simple checkout via WhatsApp or Email.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#shop">Shop now</a>
+          <a class="btn ghost" href="#how">How it works</a>
+        </div>
+        <div class="badges">
+          <span class="badge">No signup required</span>
+          <span class="badge">Mobile-first</span>
+          <span class="badge">Free hosting</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOP -->
+    <section id="shop" class="section">
+      <div class="section-head">
+        <h2>Shop</h2>
+        <div class="controls">
+          <input id="searchInput" class="input" placeholder="Search products…" />
+          <select id="categorySelect" class="select">
+            <option value="all">All categories</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid" id="productGrid" aria-live="polite"></div>
+    </section>
+
+    <!-- HOW -->
+    <section id="how" class="section alt">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>Add items to cart.</li>
+        <li>Open cart and choose WhatsApp or Email checkout.</li>
+        <li>Send your order message — you confirm payment & delivery manually.</li>
+      </ol>
+      <p class="note">
+        Want real online payments later? You can add Stripe/PayPal once you’re ready (still no monthly fee).
+      </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-title">TechStore</div>
+          <div class="muted">Built with free tools. Hosted on GitHub Pages.</div>
+        </div>
+        <div>
+          <div class="footer-title">Contact</div>
+          <div class="muted">WhatsApp: +94XXXXXXXXX</div>
+          <div class="muted">Email: yourstore@email.com</div>
+        </div>
+        <div>
+          <div class="footer-title">Policies</div>
+          <div class="muted">Privacy • Returns • Terms</div>
+        </div>
+      </div>
+      <div class="copyright muted">© <span id="year"></span> TechStore</div>
+    </footer>
+  </main>
+
+  <!-- CART DRAWER -->
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="cart" id="cart" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-head">
+      <h3>Your cart</h3>
+      <button class="icon-btn" id="closeCartBtn" aria-label="Close cart">✕</button>
+    </div>
+
+    <div class="cart-body" id="cartItems"></div>
+
+    <div class="cart-foot">
+      <div class="row">
+        <span class="muted">Subtotal</span>
+        <strong id="cartSubtotal">$0</strong>
+      </div>
+
+      <div class="row">
+        <label class="muted" for="customerName">Name</label>
+        <input class="input" id="customerName" placeholder="Your name" />
+      </div>
+
+      <div class="row">
+        <label class="muted" for="customerLocation">City / Area</label>
+        <input class="input" id="customerLocation" placeholder="e.g., Colombo" />
+      </div>
+
+      <div class="row">
+        <label class="muted" for="customerPhone">Phone (optional)</label>
+        <input class="input" id="customerPhone" placeholder="e.g., +94…" />
+      </div>
+
+      <div class="checkout-actions">
+        <button class="btn primary" id="checkoutWhatsApp">Checkout via WhatsApp</button>
+        <button class="btn ghost" id="checkoutEmail">Checkout via Email</button>
+      </div>
+
+      <button class="btn danger" id="clearCartBtn">Clear cart</button>
+      <div class="tiny muted">
+        Note: This starter sends an order message. You handle payment/delivery manually (no fees).
+      </div>
+    </div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
