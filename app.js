@@ -8,33 +8,58 @@ const STORE = {
 
 // Sample products (replace with your own)
 const PRODUCTS = [
-  // Phones
-  { id: "ph1", name: "Lenovo IdeaPad 1 14AMN7 – Ryzen 5", category: "Phones", price: 179,000.00, tag: "Popular" },
-  { id: "ph2", name: "Android Phone (Midrange Series)", category: "Phones", price: 89990, tag: "Best value" },
-  { id: "ph3", name: "Refurb iPhone (Certified)", category: "Phones", price: 124990, tag: "Limited" },
+  
+// Laptops
+{
+  id: "lp1",
+  name: "Lenovo IdeaPad 1 14AMN7 – Ryzen 5",
+  category: "Laptops",
+  price: 179000,
+  tag: "Reliable",
+  image: "images/Lenovo-IdeaPad-1-14AMN7-–-Ryzen-5-2.jpg"
+},
+{
+  id: "lp2",
+  name: "HP Victus Gaming 15 Fb3166AX – Ryzen 5",
+  category: "Laptops",
+  price: 250000,
+  tag: "Performance",
+  image: "images/HP-Victus-Gaming-15-fb3166AX-Ryzen-5.jpg"
+},
+{
+  id: "lp3",
+  name: "Lenovo IdeaPad Slim 3 15AMN8 – Ryzen 5",
+  category: "Laptops",
+  price: 189000,
+  tag: "Power",
+  image: "images/Lenovo-IdeaPad-Slim-3-15AMN8-n.jpg"
+},
 
-  // Accessories
-  { id: "ac1", name: "USB-C Fast Charger 20W", category: "Accessories", price: 3490, tag: "New" },
-  { id: "ac2", name: "Type-C Cable (Fast Charge)", category: "Accessories", price: 990, tag: "Essential" },
-  { id: "ac3", name: "Shockproof Phone Case", category: "Accessories", price: 1490, tag: "Bestseller" },
-  { id: "ac4", name: "Wireless Earbuds", category: "Accessories", price: 6990, tag: "Hot" },
-
-  // Gaming
-  { id: "ga1", name: "Gaming Mouse (RGB)", category: "Gaming", price: 3990, tag: "Deal" },
-  { id: "ga2", name: "Mechanical Keyboard", category: "Gaming", price: 12990, tag: "Pro" },
-  { id: "ga3", name: "Gaming Headset", category: "Gaming", price: 8990, tag: "Immersive" },
-  { id: "ga4", name: "Controller (Wireless)", category: "Gaming", price: 7490, tag: "Smooth" },
-
-  // Laptops
-  { id: "lp1", name: "Lenovo IdeaPad 1 14AMN7 – Ryzen 5", category: "Laptops", price: 179,000, tag: "Reliable" },
-  { id: "lp2", name: "HP Victus Gaming 15 Fb3166AX – Ryzen 5", category: "Laptops", price: 250,000, tag: "Performance" },
-  { id: "lp3", name: "Lenovo IdeaPad Slim 3 15AMN8 – Ryzen 5", category: "Laptops", price: 189,000, tag: "Power" },
-
-  // Gadgets
-  { id: "gd1", name: "Toocki 3.5mm AUX Audio Cable 2M", category: "Gadgets", price: 2200, tag: "Loud" },
-  { id: "gd2", name: "20W USB-C Power Adapter ", category: "Gadgets", price: 4500, tag: "Trending" },
-  { id: "gd3", name: "K9 Dual Wireless Clip Microphone – Type-C & Lightning", category: "Gadgets", price: 3250, tag: "Must have" },
-];
+// Gadgets
+{
+  id: "gd1",
+  name: "Toocki 3.5mm AUX Audio Cable 2M",
+  category: "Gadgets",
+  price: 2200,
+  tag: "Essential",
+  image: "images/toocki-3-5mm-aux-audio-cable-male-to-male.jpg"
+},
+{
+  id: "gd2",
+  name: "20W USB-C Power Adapter",
+  category: "Gadgets",
+  price: 4500,
+  tag: "Trending",
+  image: "images/20w-usb-c-power-adapter-gadgetcity-lk.jpg"
+},
+{
+  id: "gd3",
+  name: "K9 Dual Wireless Clip Microphone – Type-C & Lightning",
+  category: "Gadgets",
+  price: 3250,
+  tag: "Must have",
+  image: "images/k9-dual-wireless-microphone-sri-lanka.webp"
+},
 
 // ====== STATE ======
 const CART_KEY = "techstore_cart_v1";
