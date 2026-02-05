@@ -8,58 +8,14 @@ const STORE = {
 
 // Sample products (replace with your own)
 const PRODUCTS = [
-  
-// Laptops
-{
-  id: "lp1",
-  name: "Lenovo IdeaPad 1 14AMN7 – Ryzen 5",
-  category: "Laptops",
-  price: 179000,
-  tag: "Reliable",
-  image: "images/Lenovo-IdeaPad-1-14AMN7-–-Ryzen-5-2.jpg"
-},
-{
-  id: "lp2",
-  name: "HP Victus Gaming 15 Fb3166AX – Ryzen 5",
-  category: "Laptops",
-  price: 250000,
-  tag: "Performance",
-  image: "images/HP-Victus-Gaming-15-fb3166AX-Ryzen-5.jpg"
-},
-{
-  id: "lp3",
-  name: "Lenovo IdeaPad Slim 3 15AMN8 – Ryzen 5",
-  category: "Laptops",
-  price: 189000,
-  tag: "Power",
-  image: "images/Lenovo-IdeaPad-Slim-3-15AMN8-n.jpg"
-},
+  { id: "lp1", name: "Lenovo IdeaPad 1 14AMN7 – Ryzen 5", category: "Laptops", price: 179000, tag: "Reliable", image: "images/Lenovo-IdeaPad-1-14AMN7-–-Ryzen-5-2.jpg" },
+  { id: "lp2", name: "HP Victus Gaming 15 Fb3166AX – Ryzen 5", category: "Laptops", price: 250000, tag: "Performance", image: "images/HP-Victus-Gaming-15-fb3166AX-Ryzen-5.jpg" },
+  { id: "lp3", name: "Lenovo IdeaPad Slim 3 15AMN8 – Ryzen 5", category: "Laptops", price: 189000, tag: "Power", image: "images/Lenovo-IdeaPad-Slim-3-15AMN8-n.jpg" },
 
-// Gadgets
-{
-  id: "gd1",
-  name: "Toocki 3.5mm AUX Audio Cable 2M",
-  category: "Gadgets",
-  price: 2200,
-  tag: "Essential",
-  image: "images/toocki-3-5mm-aux-audio-cable-male-to-male.jpg"
-},
-{
-  id: "gd2",
-  name: "20W USB-C Power Adapter",
-  category: "Gadgets",
-  price: 4500,
-  tag: "Trending",
-  image: "images/20w-usb-c-power-adapter-gadgetcity-lk.jpg"
-},
-{
-  id: "gd3",
-  name: "K9 Dual Wireless Clip Microphone – Type-C & Lightning",
-  category: "Gadgets",
-  price: 3250,
-  tag: "Must have",
-  image: "images/k9-dual-wireless-microphone-sri-lanka.webp"
-},
+  { id: "gd1", name: "Toocki 3.5mm AUX Audio Cable 2M", category: "Gadgets", price: 2200, tag: "Essential", image: "images/toocki-3-5mm-aux-audio-cable-male-to-male.jpg" },
+  { id: "gd2", name: "20W USB-C Power Adapter", category: "Gadgets", price: 4500, tag: "Trending", image: "images/20w-usb-c-power-adapter-gadgetcity-lk.jpg" },
+  { id: "gd3", name: "K9 Dual Wireless Clip Microphone – Type-C & Lightning", category: "Gadgets", price: 3250, tag: "Must have", image: "images/k9-dual-wireless-microphone-sri-lanka.webp" },
+];
 
 // ====== STATE ======
 const CART_KEY = "techstore_cart_v1";
